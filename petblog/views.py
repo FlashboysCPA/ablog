@@ -3,7 +3,4 @@ from django.shortcuts import render
 def home(request):
     return render(request, 'home.html', {})
 # Create your views here.
-# comment for commit
-# comment for commit 2
-# commit 3jjjjj
-# commit 4
+# push video up to heroku for web hosting https://www.youtube.com/watch?v=UkokhawLKDU&list=PLCC34OHNcOtrZnQI6ZLvGPUWfQ6oh-D6H&index=13
