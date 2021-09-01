@@ -14,3 +14,7 @@ class HomeView(ListView):
 	template_name = 'home.html'
 	#ordering = ['-pub_date']
 	#success_message = 'List successfully saved!!!!'
+
+class SubmissionDetail(DetailView):
+	model = Post
+	template_name = 'submission_details.html'
