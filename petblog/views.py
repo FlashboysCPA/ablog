@@ -4,3 +4,4 @@ def home(request):
     return render(request, 'home.html', {})
 # Create your views here.
 # comment for commit
+#comment for commit 2
